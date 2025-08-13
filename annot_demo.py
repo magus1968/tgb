@@ -1,6 +1,6 @@
-def say_something(number: int, word: str) -> str:
+def say_something(number: int, word: str) -> list:
 
     word = word.capitalize()
-    return [word * number]
+    return word * number
 
-say_something(2, "test")
+print(say_something(2, "test"))
