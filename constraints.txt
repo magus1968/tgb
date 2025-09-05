@@ -1,0 +1,5 @@
+# Используйте constraints-файлы
+# Создайте файл constraints.txt для контроля совместимости:
+
+pydantic==2.11.7
+pydantic-core==2.33.2
