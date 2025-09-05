@@ -1,3 +1,3 @@
-print('This is a file from GitHub repository')
+print('\nThis is a file from GitHub repository')
 
 print('These are new local changes')
