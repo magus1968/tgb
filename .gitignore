@@ -1,5 +1,7 @@
 # token at mage1968_bot
 SOURCE/token.txt
+SOURCE/token_old.txt
+# А что если убрать в .gitignore ВСЮ папку SOURCE ?
 
 # Environments
 .env
