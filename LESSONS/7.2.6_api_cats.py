@@ -7,10 +7,8 @@ from environs import Env
 
 API_URL = 'https://api.telegram.org/bot'
 API_CATS_URL = 'https://api.thecatapi.com/v1/images/search'
-
 env = Env()
 env.read_env()
-
 BOT_TOKEN = env('BOT_TOKEN')
 ERROR_TEXT = 'Здесь должна была быть картинка с котиком :('
 
