@@ -2,7 +2,7 @@
 
 import requests
 import time
-import os
+# import os   # Pylance: "os" is not accessed; # Ruff: `os` imported but unused
 from environs import Env
 
 API_URL: str = 'https://api.telegram.org/bot'

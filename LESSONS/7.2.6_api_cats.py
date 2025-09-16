@@ -1,7 +1,7 @@
 import requests
 import pprint
 import time
-import os
+# import os   # Pylance: "os" is not accessed; Ruff: `os` imported but unused
 from environs import Env
 
 
